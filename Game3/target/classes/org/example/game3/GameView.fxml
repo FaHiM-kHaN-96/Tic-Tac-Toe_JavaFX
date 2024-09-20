@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="672.0" prefWidth="1019.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.game3.Game3Controller">
+   <children>
+      <HBox layoutX="30.0" layoutY="88.0" prefHeight="174.0" prefWidth="741.0" spacing="20.0">
+         <children>
+            <Button fx:id="btn_1" mnemonicParsing="false" onAction="#btn_1_action" prefHeight="174.0" prefWidth="300.0">
+               <font>
+                  <Font name="Tahoma Bold" size="72.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_2" mnemonicParsing="false" onAction="#btn_2_action" prefHeight="174.0" prefWidth="300.0">
+               <font>
+                  <Font name="Tahoma Bold" size="72.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_3" mnemonicParsing="false" onAction="#btn_3_action" prefHeight="174.0" prefWidth="300.0">
+               <font>
+                  <Font name="Tahoma Bold" size="72.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="30.0" layoutY="458.0" prefHeight="174.0" prefWidth="741.0" spacing="20.0">
+         <children>
+            <Button fx:id="btn_7" mnemonicParsing="false" onAction="#btn_7_action" prefHeight="174.0" prefWidth="300.0">
+               <font>
+                  <Font name="Tahoma Bold" size="72.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_8" mnemonicParsing="false" onAction="#btn_8_action" prefHeight="174.0" prefWidth="300.0">
+               <font>
+                  <Font name="Tahoma Bold" size="72.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_9" mnemonicParsing="false" onAction="#btn_9_action" prefHeight="174.0" prefWidth="300.0">
+               <font>
+                  <Font name="Tahoma Bold" size="72.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="30.0" layoutY="272.0" prefHeight="174.0" prefWidth="741.0" spacing="20.0">
+         <children>
+            <Button fx:id="btn_4" mnemonicParsing="false" onAction="#btn_4_action" prefHeight="174.0" prefWidth="300.0">
+               <font>
+                  <Font name="Tahoma Bold" size="72.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_5" mnemonicParsing="false" onAction="#btn_5_action" prefHeight="174.0" prefWidth="300.0">
+               <font>
+                  <Font name="Tahoma Bold" size="72.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_6" mnemonicParsing="false" onAction="#btn_6_action" prefHeight="174.0" prefWidth="300.0">
+               <font>
+                  <Font name="Tahoma Bold" size="72.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Label fx:id="result_lbl" alignment="CENTER" contentDisplay="TOP" layoutX="782.0" layoutY="111.0" prefHeight="140.0" prefWidth="223.0">
+         <font>
+            <Font name="Arial Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="reset_btn" layoutX="796.0" layoutY="319.0" mnemonicParsing="false" onAction="#reset_btn_action" prefHeight="81.0" prefWidth="195.0" text="Restart">
+         <font>
+            <Font name="Arial Bold Italic" size="36.0" />
+         </font>
+      </Button>
+      <Label fx:id="notice_lbl" alignment="CENTER" layoutX="28.0" layoutY="24.0" prefHeight="46.0" prefWidth="741.0" textFill="#ff0505c7">
+         <font>
+            <Font name="Tahoma Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
